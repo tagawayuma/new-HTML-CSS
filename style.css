@@ -1,10 +1,339 @@
+
 <style>
-    .potepan{
-       background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg)
-      
-    }
+body {
+    color: rgb(0, 0, 0);
+    font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+.Header {
+    width: 100%;
+    position: absolute;
     
-    あああああ
-    
-    
-</style>    
+}
+
+.Header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    display: block;
+}
+
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+    position: relative;
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ .HeaderLogo　{
+    display: block;
+    height: 20px;
+    width: auto;
+}
+ 
+ 
+ .HeaderMenu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ .HeaderContainer>*:last-child {
+    display: inline-flex;
+}
+ 
+ ul, ol {
+    list-style: none;
+}
+ 
+ .HeaderMenu1 {
+    margin-right: 45px;
+}
+  
+  .HeaderMenu1__link {
+    display: block;
+}
+  
+  
+.HeaderMenu1__link>span:first-child {
+    font-family: 'Lato', sans-serif;
+}
+.HeaderMenu1__link>span {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+} 
+
+.HeaderMenu1__link>span:last-child {
+    font-size: 10px;
+}
+  
+.HeaderMenu1:last-of-type {
+    margin-right: 0;
+}
+  
+ .HeaderMenu1__button {
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
+} 
+  
+  .FirstView {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+  
+  section {
+    display: block;
+}
+  
+ .FirstView__main-image--sp {
+    display: none;
+}
+
+.FirstView__main-image {
+    width: 100%;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+} 
+  
+.FirstView__container {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}  
+  
+div {
+    display: block;
+}  
+
+
+.FirstViewContent {
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+.FirstViewContent__title {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.FirstViewContent__images {
+    margin-bottom: 25px;
+}
+
+.FirstViewContent__images img {
+    margin-right: 8px;
+}
+ 
+.FirstViewContent__images img:nth-of-type(2) {
+    width: 40%;
+} 
+ 
+ .FirstViewContent__images img:last-of-type {
+    margin-right: 0;
+}
+ 
+ .FirstViewContent__buttons {
+    display: flex;
+}
+ 
+ .FirstViewContent__buttons a:first-of-type {
+    margin-right: 15px;
+    width: 306px;
+}
+ 
+ .FirstViewContent__buttons a:last-of-type {
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    color: #000;
+    width: 176px;
+}
+ 
+ .FirstViewContent__buttons a {
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+ 
+ .FirstViewCaption {
+    color: #A2A2A4;
+    font-size: 12px;
+}
+
+.FirstViewCaption a {
+    color: #A2A2A4;
+} 
+ 
+ .AboutWrapper {
+    background-color: #F79214;
+    padding: 45px 0;
+} 
+  
+ .About {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+} 
+  
+ .About__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+    width: 53%;
+} 
+  
+  .About__title h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.About__title h2, .About__title p {
+    color: #fff;
+    text-align: left;
+}
+  
+.About__title h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 74px;
+}  
+  
+  .About__title h2>span {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+  
+ .About__title br {
+    display: none;
+} 
+  
+ .About__title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.About__title h2, .About__title p {
+    color: #fff;
+    text-align: left;
+}
+.About__title p {
+    display: inline-block;
+} 
+ 
+ .About__button {
+    width: 250px;
+}
+ 
+ .About__button a {
+    align-items: center;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: #F79214 !important;
+    background-color: #fff;
+}
+ 
+ .About__button a span:first-child {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+ 
+ .About__button a span:last-child {
+    font-size: 12px;
+    line-height: 18px;
+}
+ 
+ 
+ .FirstViewContent__buttons a:hover {
+    opacity: 0.8;
+}
+ 
+ .HeaderMenu1__button:hover {
+    opacity: 0.8;
+}
+ 
+ .About__button a:hover {
+    opacity: 0.8;
+}
+ 
+ 
+  
+  
+  
+}
+
+</style>
+   
